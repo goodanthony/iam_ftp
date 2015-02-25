@@ -92,7 +92,11 @@ module IamFtp
 
 
     def upload_file_to_ftp_server(local_file_path, remote_file_path, filename)
+      ftp_connect
+
       get_ready_and_upload_the_file(local_file_path, remote_file_path, filename)
+
+      ftp_close
     end
 
   end

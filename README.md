@@ -1,10 +1,10 @@
 # Iam::Ftp
 
-Thanks to Ruby’s 'net/ftp' library this gem would come in handy if you want to upload files or directories to an remote server with FTP.
+Thanks to Ruby’s 'net/ftp' library this gem would come in handy if you want to upload files or directories to a remote server with FTP.
 
 ## Installation
 
-$ gem install iam_ftp
+gem install iam_ftp
 
 
 ## Usage
