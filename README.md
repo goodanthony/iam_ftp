@@ -25,7 +25,7 @@ If the server is a shared host like Godaddy.com hosting: leave second parameter 
 connect.upload_directory_to_ftp_server("/Users/me/Documents/work/iamnotfree/my-site/", "")
 
 
-To upload a file on by one(firsly the directory, then the remote directory, then the file name)
+To upload a file one by one(firsly the directory, then the remote directory, then the file name)
 
 connect.upload_file_to_ftp_server("/Users/me/Documents/work/iamnotfree/my-site", "", "/Users/me/Documents/work/iamnotfree/my-site/messages.html")
 

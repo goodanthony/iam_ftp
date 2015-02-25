@@ -8,11 +8,6 @@ Gem::Specification.new do |spec|
   spec.version       = IamFtp::VERSION
   spec.authors       = ["anthony de silva"]
   spec.email         = ["anthony   @   iamfree.com"]
-
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{A Ruby FTP client}
   spec.description   = %q{I think i can upload files to an FTP server, list all files and download files from FTP server}
   spec.homepage      = "https://github.com/iamfree-com/iam_ftp"
